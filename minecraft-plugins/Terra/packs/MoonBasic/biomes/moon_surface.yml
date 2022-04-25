@@ -1,0 +1,23 @@
+id: "MOON_SURFACE"
+extends: BASE
+vanilla: END_BARRENS
+
+variables:
+  base: 64          # Base terrain height
+  craterHeight: 100 # How high craters will go above the base height
+
+
+noise-equation: "-y + base"
+
+elevation:
+  equation: "(craters(x, z)+1)/2 * craterHeight"
+
+palette:
+  - CRATER_FLAT: 255
+  - "BLOCK:minecraft:bedrock": 0
+
+slant:
+  threshold: 4
+  palette:
+    - CRATER_SLANT: 255
+    - "BLOCK:minecraft:bedrock": 0
