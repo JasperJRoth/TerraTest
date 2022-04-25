@@ -9,6 +9,8 @@ mc:
     PAPER_DOWNLOAD_URL: https://papermc.io/api/v2/projects/paper/versions/1.17.1/builds/411/downloads/paper-1.17.1-411.jar
     SYNC_SKIP_NEWER_IN_DESTINATION: "false"
     OVERRIDE_SERVER_PROPERTIES: "true"
+    ENABLE_RCON: "true"
+    RCON_PASSWORD: ${RCON_PASSWORD}
   volumes:
     # attach a directory relative to the directory containing this compose file
     - ./minecraft-data:/data:rw
