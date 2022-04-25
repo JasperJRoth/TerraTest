@@ -1,1 +1,3 @@
 minecraft-data/*
+!minecraft-data/logs
+.env
