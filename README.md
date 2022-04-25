@@ -20,13 +20,13 @@ Terra creates world files on server shutdown, even if those worlds have been del
 
 1. Clone the latest version of the repository
 2. Have docker installed
-3. Run ```docker-compose up -d```
-4. Wait until server is ```Done (14.195s)! For help, type "help"```
-5. Create file named .env in the same directory as the docker-compose.yml file
-6. Place the following text into the .env file
+3. Create file named .env in the same directory as the docker-compose.yml file
+4. Place the following text into the .env file
   ```RCON_PASSWORD=[any password you want to use]```
-8. Run ```docker exec -i terra-test rcon-cli```
-9. Enter the following commands into the console:<br />
+5. Run ```docker-compose up -d```
+6. Wait until server is ```Done (14.195s)! For help, type "help"```
+7. Run ```docker exec -i terra-test rcon-cli```
+8. Enter the following commands into the console:<br />
   (This creates the world for testing)<br />
   ```mv create testworld NORMAL -g Terra:MOON_BASIC```<br />
   (This deletes the world - there will be no world files after this step)<br />
@@ -35,7 +35,7 @@ Terra creates world files on server shutdown, even if those worlds have been del
   ```mv confirm```<br />
   (Stops the server - there will be world files after this step)<br />
   ```stop```<br />
-10. Check minecraft-data folder
+9. Check minecraft-data folder
 
 ### Expected behavior
 
