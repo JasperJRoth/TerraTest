@@ -1,0 +1,482 @@
+[19:07:56] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:07:57] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[19:07:58] [Worker-Main-1/INFO]: Loaded 7 recipes
+[19:07:59] [Server thread/INFO]: Starting minecraft server version 1.17.1
+[19:07:59] [Server thread/INFO]: Loading properties
+[19:07:59] [Server thread/INFO]: This server is running Paper version git-Paper-411 (MC: 1.17.1) (Implementing API version 1.17.1-R0.1-SNAPSHOT) (Git: 6625db3 on ver/1.17.1)
+[19:08:00] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:08:00] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:08:00] [Server thread/INFO]: Default game type: SURVIVAL
+[19:08:00] [Server thread/INFO]: Generating keypair
+[19:08:00] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:08:00] [Server thread/INFO]: Using epoll channel type
+[19:08:00] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[19:08:00] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[19:08:01] [Server thread/INFO]: [Terra] Loaded addon Terra-Bukkit v1.0.0, by Terra
+[19:08:01] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.3.1-b861
+[19:08:01] [Server thread/INFO]: [Terra] Loading Terra v5.4.1-BETA+efd1665c
+[19:08:01] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:08:01] [Server thread/INFO]: [Terra] Enabling Terra v5.4.1-BETA+efd1665c
+[19:08:01] [Server thread/INFO]: [Terra] Running on version V1_17
+[19:08:01] [Server thread/INFO]: [Terra] Loading config values
+[19:08:01] [Server thread/INFO]: [Terra] DebugLogger: false
+[19:08:01] [Server thread/INFO]: [Terra] /data/plugins/Terra/lang/en_us.yml
+[19:08:01] [Server thread/INFO]: [Terra] Loaded language en_us
+[19:08:01] [Server thread/INFO]: [Terra] Loading config pack "MOON_BASIC"
+[19:08:01] [Server thread/INFO]: [Terra] Loaded config pack "MOON_BASIC" v1.0.0 by Astrash in 487.767629ms.
+[19:08:01] [Server thread/INFO]: [Terra] Loading config pack "NETHER"
+[19:08:01] [Server thread/INFO]: [Terra] Loaded config pack "NETHER" v2.0.0 by dfsek in 106.261946ms.
+[19:08:02] [Server thread/INFO]: [Terra] Loading config pack "DEFAULT"
+[19:08:04] [Server thread/INFO]: [Terra] Loaded config pack "DEFAULT" v2.0.0 by dfsek in 2803.164344ms.
+[19:08:05] [Server thread/INFO]: Preparing level "world"
+[19:08:05] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:08:06] [Server thread/INFO]: Time elapsed: 424 ms
+[19:08:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[19:08:06] [Server thread/INFO]: Time elapsed: 159 ms
+[19:08:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[19:08:06] [Server thread/INFO]: Time elapsed: 234 ms
+[19:08:06] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
+[19:08:06] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[19:08:06] [Server thread/INFO]: [Multiverse-Core] We are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[19:08:06] [Server thread/INFO]: [Multiverse-Core] 3 - World(s) loaded.
+[19:08:06] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[19:08:06] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[19:08:07] [Server thread/INFO]: Starting remote control listener
+[19:08:07] [Server thread/INFO]: Thread RCON Listener started
+[19:08:07] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[19:08:07] [Server thread/INFO]: Running delayed init tasks
+[19:08:07] [Server thread/INFO]: Done (7.212s)! For help, type "help"
+[19:08:07] [Server thread/INFO]: Timings Reset
+[19:10:14] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[19:15:07] [Server thread/INFO]: Rcon: Starting creation of world 'testworld'...
+[19:15:07] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'testworld' - Env: NORMAL - Type: NORMAL & generator: Terra:MOON_BASIC
+[19:15:08] [Server thread/WARN]: Unable to find spawn biome
+[19:15:17] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-411 (MC: 1.17.1) ---
+[19:15:17] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[19:15:17] [Paper Watchdog Thread/ERROR]: ------------------------------
+[19:15:17] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[19:15:17] [Paper Watchdog Thread/ERROR]: Chunk wait task info below: 
+[19:15:17] [Paper Watchdog Thread/ERROR]: -9,-2 in 'testworld:
+[19:15:17] [Paper Watchdog Thread/ERROR]: Load Task - none
+[19:15:17] [Paper Watchdog Thread/ERROR]: Save Task - none
+[19:15:17] [Paper Watchdog Thread/ERROR]: Chunk Holder - non-null
+[19:15:17] [Paper Watchdog Thread/ERROR]: Chunk Status - minecraft:features
+[19:15:17] [Paper Watchdog Thread/ERROR]: Chunk Ticket Status - minecraft:full
+[19:15:17] [Paper Watchdog Thread/ERROR]: Chunk Holder Status - minecraft:features
+[19:15:17] [Paper Watchdog Thread/ERROR]: Chunk Holder Priority - 2
+[19:15:17] [Paper Watchdog Thread/ERROR]: Chunk Neighbors: 
+[19:15:17] [Paper Watchdog Thread/ERROR]:   -10,-3 in testworld:
+[19:15:17] [Paper Watchdog Thread/ERROR]:   Chunk Holder - non-null
+[19:15:17] [Paper Watchdog Thread/ERROR]:   Chunk Status - minecraft:liquid_carvers
+[19:15:17] [Paper Watchdog Thread/ERROR]:   Chunk Ticket Status - minecraft:features
+[19:15:17] [Paper Watchdog Thread/ERROR]:   Chunk Holder Status - minecraft:liquid_carvers
+[19:15:17] [Paper Watchdog Thread/ERROR]:   Chunk Holder Priority - 3
+[19:15:17] [Paper Watchdog Thread/ERROR]:   Chunk Neighbors: 
+[19:15:17] [Paper Watchdog Thread/ERROR]:     -11,-4 in testworld:
+[19:15:17] [Paper Watchdog Thread/ERROR]:     Chunk Holder - non-null
+[19:15:17] [Paper Watchdog Thread/ERROR]:     Chunk Status - minecraft:noise
+[19:15:17] [Paper Watchdog Thread/ERROR]:     Chunk Ticket Status - minecraft:liquid_carvers
+[19:15:17] [Paper Watchdog Thread/ERROR]:     Chunk Holder Status - minecraft:noise
+[19:15:17] [Paper Watchdog Thread/ERROR]:     Chunk Holder Priority - 35
+[19:15:17] [Paper Watchdog Thread/ERROR]:     -11,-3 in testworld:
+[19:15:17] [Paper Watchdog Thread/ERROR]:     Chunk Holder - non-null
+[19:15:17] [Paper Watchdog Thread/ERROR]:     Chunk Status - minecraft:surface
+[19:15:17] [Paper Watchdog Thread/ERROR]:     Chunk Ticket Status - minecraft:liquid_carvers
+[19:15:17] [Paper Watchdog Thread/ERROR]:     Chunk Holder Status - minecraft:surface
+[19:15:17] [Paper Watchdog Thread/ERROR]:     Chunk Holder Priority - 35
+[19:15:17] [Paper Watchdog Thread/ERROR]:   -10,-2 in testworld:
+[19:15:17] [Paper Watchdog Thread/ERROR]:   Chunk Holder - non-null
+[19:15:17] [Paper Watchdog Thread/ERROR]:   Chunk Status - minecraft:liquid_carvers
+[19:15:17] [Paper Watchdog Thread/ERROR]:   Chunk Ticket Status - minecraft:features
+[19:15:17] [Paper Watchdog Thread/ERROR]:   Chunk Holder Status - minecraft:liquid_carvers
+[19:15:17] [Paper Watchdog Thread/ERROR]:   Chunk Holder Priority - 3
+[19:15:17] [Paper Watchdog Thread/ERROR]:   Chunk Neighbors: 
+[19:15:17] [Paper Watchdog Thread/ERROR]:     -11,-3 in testworld (CIRCULAR)
+[19:15:17] [Paper Watchdog Thread/ERROR]: ------------------------------
+[19:15:17] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[19:15:17] [Paper Watchdog Thread/ERROR]: 	PID: 23 | Suspended: false | Native: false | State: TIMED_WAITING
+[19:15:17] [Paper Watchdog Thread/ERROR]: 	Stack:
+[19:15:17] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+[19:15:17] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+[19:15:17] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.util.thread.BlockableEventLoop.waitForTasks(BlockableEventLoop.java:144)
+[19:15:17] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:133)
+[19:15:17] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.level.ServerChunkCache.getChunk(ServerChunkCache.java:680)
+[19:15:17] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.world.level.Level.getChunk(Level.java:534)
+[19:15:17] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.world.level.Level.getChunk(Level.java:475)
+[19:15:17] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.level.PlayerRespawnLogic.getOverworldRespawnPos(PlayerRespawnLogic.java:30)
+[19:15:17] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.level.PlayerRespawnLogic.getSpawnPosInChunk(PlayerRespawnLogic.java:68)
+[19:15:17] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.MinecraftServer.setInitialSpawn(MinecraftServer.java:840)
+[19:15:17] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.MinecraftServer.initWorld(MinecraftServer.java:754)
+[19:15:17] [Paper Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.v1_17_R1.CraftServer.createWorld(CraftServer.java:1251)
+[19:15:17] [Paper Watchdog Thread/ERROR]: 		app//org.bukkit.Bukkit.createWorld(Bukkit.java:661)
+[19:15:17] [Paper Watchdog Thread/ERROR]: 		app//org.bukkit.WorldCreator.createWorld(WorldCreator.java:462)
+[19:15:17] [Paper Watchdog Thread/ERROR]: 		Multiverse-Core-4.3.1.jar//com.onarandombox.MultiverseCore.utils.WorldManager.doLoad(WorldManager.java:486)
+[19:15:17] [Paper Watchdog Thread/ERROR]: 		Multiverse-Core-4.3.1.jar//com.onarandombox.MultiverseCore.utils.WorldManager.addWorld(WorldManager.java:288)
+[19:15:17] [Paper Watchdog Thread/ERROR]: 		Multiverse-Core-4.3.1.jar//com.onarandombox.MultiverseCore.commands.CreateCommand.runCommand(CreateCommand.java:125)
+[19:15:17] [Paper Watchdog Thread/ERROR]: 		Multiverse-Core-4.3.1.jar//com.onarandombox.commandhandler.CommandHandler.checkAndRunCommand(CommandHandler.java:296)
+[19:15:17] [Paper Watchdog Thread/ERROR]: 		Multiverse-Core-4.3.1.jar//com.onarandombox.commandhandler.CommandHandler.processFoundCommands(CommandHandler.java:143)
+[19:15:17] [Paper Watchdog Thread/ERROR]: 		Multiverse-Core-4.3.1.jar//com.onarandombox.commandhandler.CommandHandler.locateAndRunCommand(CommandHandler.java:93)
+[19:15:17] [Paper Watchdog Thread/ERROR]: 		Multiverse-Core-4.3.1.jar//com.onarandombox.MultiverseCore.MultiverseCore.onCommand(MultiverseCore.java:839)
+[19:15:17] [Paper Watchdog Thread/ERROR]: 		app//org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
+[19:15:17] [Paper Watchdog Thread/ERROR]: 		app//org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159)
+[19:15:17] [Paper Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.v1_17_R1.CraftServer.dispatchCommand(CraftServer.java:869)
+[19:15:17] [Paper Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.v1_17_R1.CraftServer.dispatchServerCommand(CraftServer.java:832)
+[19:15:17] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.dedicated.DedicatedServer.lambda$runCommand$3(DedicatedServer.java:787)
+[19:15:17] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.dedicated.DedicatedServer$$Lambda$5160/0x0000000801b29e58.run(Unknown Source)
+[19:15:17] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59)
+[19:15:17] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.util.thread.IAsyncTaskHandler$$Lambda$5161/0x0000000801b2a080.get(Unknown Source)
+[19:15:17] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+[19:15:17] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.TickTask.run(TickTask.java:18)
+[19:15:17] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:149)
+[19:15:17] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:23)
+[19:15:17] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1426)
+[19:15:17] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.MinecraftServer.executeTask(MinecraftServer.java:192)
+[19:15:17] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:122)
+[19:15:17] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1404)
+[19:15:17] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1397)
+[19:15:17] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:132)
+[19:15:17] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1375)
+[19:15:17] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1286)
+[19:15:17] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
+[19:15:17] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.MinecraftServer$$Lambda$3658/0x00000008013ce198.run(Unknown Source)
+[19:15:17] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Thread.run(Unknown Source)
+[19:15:17] [Paper Watchdog Thread/ERROR]: ------------------------------
+[19:15:17] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[19:15:17] [Paper Watchdog Thread/ERROR]: ------------------------------
+[19:15:22] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-411 (MC: 1.17.1) ---
+[19:15:22] [Paper Watchdog Thread/ERROR]: The server has not responded for 15 seconds! Creating thread dump
+[19:15:22] [Paper Watchdog Thread/ERROR]: ------------------------------
+[19:15:22] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[19:15:22] [Paper Watchdog Thread/ERROR]: Chunk wait task info below: 
+[19:15:22] [Paper Watchdog Thread/ERROR]: 12,-7 in 'testworld:
+[19:15:22] [Paper Watchdog Thread/ERROR]: Load Task - none
+[19:15:22] [Paper Watchdog Thread/ERROR]: Save Task - none
+[19:15:22] [Paper Watchdog Thread/ERROR]: Chunk Holder - non-null
+[19:15:22] [Paper Watchdog Thread/ERROR]: Chunk Status - minecraft:features
+[19:15:22] [Paper Watchdog Thread/ERROR]: Chunk Ticket Status - minecraft:full
+[19:15:22] [Paper Watchdog Thread/ERROR]: Chunk Holder Status - minecraft:features
+[19:15:22] [Paper Watchdog Thread/ERROR]: Chunk Holder Priority - 2
+[19:15:22] [Paper Watchdog Thread/ERROR]: Chunk Neighbors: 
+[19:15:22] [Paper Watchdog Thread/ERROR]:   13,-7 in testworld:
+[19:15:22] [Paper Watchdog Thread/ERROR]:   Chunk Holder - non-null
+[19:15:22] [Paper Watchdog Thread/ERROR]:   Chunk Status - minecraft:liquid_carvers
+[19:15:22] [Paper Watchdog Thread/ERROR]:   Chunk Ticket Status - minecraft:features
+[19:15:22] [Paper Watchdog Thread/ERROR]:   Chunk Holder Status - minecraft:liquid_carvers
+[19:15:22] [Paper Watchdog Thread/ERROR]:   Chunk Holder Priority - 3
+[19:15:22] [Paper Watchdog Thread/ERROR]:   Chunk Neighbors: 
+[19:15:22] [Paper Watchdog Thread/ERROR]:     14,-8 in testworld:
+[19:15:22] [Paper Watchdog Thread/ERROR]:     Chunk Holder - non-null
+[19:15:22] [Paper Watchdog Thread/ERROR]:     Chunk Status - minecraft:surface
+[19:15:22] [Paper Watchdog Thread/ERROR]:     Chunk Ticket Status - minecraft:liquid_carvers
+[19:15:22] [Paper Watchdog Thread/ERROR]:     Chunk Holder Status - minecraft:surface
+[19:15:22] [Paper Watchdog Thread/ERROR]:     Chunk Holder Priority - 35
+[19:15:22] [Paper Watchdog Thread/ERROR]:     14,-7 in testworld:
+[19:15:22] [Paper Watchdog Thread/ERROR]:     Chunk Holder - non-null
+[19:15:22] [Paper Watchdog Thread/ERROR]:     Chunk Status - minecraft:surface
+[19:15:22] [Paper Watchdog Thread/ERROR]:     Chunk Ticket Status - minecraft:liquid_carvers
+[19:15:22] [Paper Watchdog Thread/ERROR]:     Chunk Holder Status - minecraft:surface
+[19:15:22] [Paper Watchdog Thread/ERROR]:     Chunk Holder Priority - 35
+[19:15:22] [Paper Watchdog Thread/ERROR]:     14,-6 in testworld:
+[19:15:22] [Paper Watchdog Thread/ERROR]:     Chunk Holder - non-null
+[19:15:22] [Paper Watchdog Thread/ERROR]:     Chunk Status - minecraft:surface
+[19:15:22] [Paper Watchdog Thread/ERROR]:     Chunk Ticket Status - minecraft:liquid_carvers
+[19:15:22] [Paper Watchdog Thread/ERROR]:     Chunk Holder Status - minecraft:surface
+[19:15:22] [Paper Watchdog Thread/ERROR]:     Chunk Holder Priority - 35
+[19:15:22] [Paper Watchdog Thread/ERROR]:   13,-6 in testworld:
+[19:15:22] [Paper Watchdog Thread/ERROR]:   Chunk Holder - non-null
+[19:15:22] [Paper Watchdog Thread/ERROR]:   Chunk Status - minecraft:liquid_carvers
+[19:15:22] [Paper Watchdog Thread/ERROR]:   Chunk Ticket Status - minecraft:features
+[19:15:22] [Paper Watchdog Thread/ERROR]:   Chunk Holder Status - minecraft:liquid_carvers
+[19:15:22] [Paper Watchdog Thread/ERROR]:   Chunk Holder Priority - 3
+[19:15:22] [Paper Watchdog Thread/ERROR]:   Chunk Neighbors: 
+[19:15:22] [Paper Watchdog Thread/ERROR]:     14,-7 in testworld (CIRCULAR)
+[19:15:22] [Paper Watchdog Thread/ERROR]:     14,-6 in testworld (CIRCULAR)
+[19:15:22] [Paper Watchdog Thread/ERROR]:     14,-5 in testworld:
+[19:15:22] [Paper Watchdog Thread/ERROR]:     Chunk Holder - non-null
+[19:15:22] [Paper Watchdog Thread/ERROR]:     Chunk Status - minecraft:noise
+[19:15:22] [Paper Watchdog Thread/ERROR]:     Chunk Ticket Status - minecraft:liquid_carvers
+[19:15:22] [Paper Watchdog Thread/ERROR]:     Chunk Holder Status - minecraft:noise
+[19:15:22] [Paper Watchdog Thread/ERROR]:     Chunk Holder Priority - 35
+[19:15:22] [Paper Watchdog Thread/ERROR]:   13,-8 in testworld:
+[19:15:22] [Paper Watchdog Thread/ERROR]:   Chunk Holder - non-null
+[19:15:22] [Paper Watchdog Thread/ERROR]:   Chunk Status - minecraft:liquid_carvers
+[19:15:22] [Paper Watchdog Thread/ERROR]:   Chunk Ticket Status - minecraft:features
+[19:15:22] [Paper Watchdog Thread/ERROR]:   Chunk Holder Status - minecraft:liquid_carvers
+[19:15:22] [Paper Watchdog Thread/ERROR]:   Chunk Holder Priority - 3
+[19:15:22] [Paper Watchdog Thread/ERROR]:   Chunk Neighbors: 
+[19:15:22] [Paper Watchdog Thread/ERROR]:     14,-8 in testworld (CIRCULAR)
+[19:15:22] [Paper Watchdog Thread/ERROR]:     14,-7 in testworld (CIRCULAR)
+[19:15:22] [Paper Watchdog Thread/ERROR]: ------------------------------
+[19:15:22] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[19:15:22] [Paper Watchdog Thread/ERROR]: 	PID: 23 | Suspended: false | Native: false | State: TIMED_WAITING
+[19:15:22] [Paper Watchdog Thread/ERROR]: 	Stack:
+[19:15:22] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+[19:15:22] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+[19:15:22] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.util.thread.BlockableEventLoop.waitForTasks(BlockableEventLoop.java:144)
+[19:15:22] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:133)
+[19:15:22] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.level.ServerChunkCache.getChunk(ServerChunkCache.java:680)
+[19:15:22] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.world.level.Level.getChunk(Level.java:534)
+[19:15:22] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.world.level.Level.getChunk(Level.java:475)
+[19:15:22] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.level.PlayerRespawnLogic.getOverworldRespawnPos(PlayerRespawnLogic.java:30)
+[19:15:22] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.level.PlayerRespawnLogic.getSpawnPosInChunk(PlayerRespawnLogic.java:68)
+[19:15:22] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.MinecraftServer.setInitialSpawn(MinecraftServer.java:840)
+[19:15:22] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.MinecraftServer.initWorld(MinecraftServer.java:754)
+[19:15:22] [Paper Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.v1_17_R1.CraftServer.createWorld(CraftServer.java:1251)
+[19:15:22] [Paper Watchdog Thread/ERROR]: 		app//org.bukkit.Bukkit.createWorld(Bukkit.java:661)
+[19:15:22] [Paper Watchdog Thread/ERROR]: 		app//org.bukkit.WorldCreator.createWorld(WorldCreator.java:462)
+[19:15:22] [Paper Watchdog Thread/ERROR]: 		Multiverse-Core-4.3.1.jar//com.onarandombox.MultiverseCore.utils.WorldManager.doLoad(WorldManager.java:486)
+[19:15:22] [Paper Watchdog Thread/ERROR]: 		Multiverse-Core-4.3.1.jar//com.onarandombox.MultiverseCore.utils.WorldManager.addWorld(WorldManager.java:288)
+[19:15:22] [Paper Watchdog Thread/ERROR]: 		Multiverse-Core-4.3.1.jar//com.onarandombox.MultiverseCore.commands.CreateCommand.runCommand(CreateCommand.java:125)
+[19:15:22] [Paper Watchdog Thread/ERROR]: 		Multiverse-Core-4.3.1.jar//com.onarandombox.commandhandler.CommandHandler.checkAndRunCommand(CommandHandler.java:296)
+[19:15:22] [Paper Watchdog Thread/ERROR]: 		Multiverse-Core-4.3.1.jar//com.onarandombox.commandhandler.CommandHandler.processFoundCommands(CommandHandler.java:143)
+[19:15:22] [Paper Watchdog Thread/ERROR]: 		Multiverse-Core-4.3.1.jar//com.onarandombox.commandhandler.CommandHandler.locateAndRunCommand(CommandHandler.java:93)
+[19:15:22] [Paper Watchdog Thread/ERROR]: 		Multiverse-Core-4.3.1.jar//com.onarandombox.MultiverseCore.MultiverseCore.onCommand(MultiverseCore.java:839)
+[19:15:22] [Paper Watchdog Thread/ERROR]: 		app//org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
+[19:15:22] [Paper Watchdog Thread/ERROR]: 		app//org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159)
+[19:15:22] [Paper Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.v1_17_R1.CraftServer.dispatchCommand(CraftServer.java:869)
+[19:15:22] [Paper Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.v1_17_R1.CraftServer.dispatchServerCommand(CraftServer.java:832)
+[19:15:22] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.dedicated.DedicatedServer.lambda$runCommand$3(DedicatedServer.java:787)
+[19:15:22] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.dedicated.DedicatedServer$$Lambda$5160/0x0000000801b29e58.run(Unknown Source)
+[19:15:22] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59)
+[19:15:22] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.util.thread.IAsyncTaskHandler$$Lambda$5161/0x0000000801b2a080.get(Unknown Source)
+[19:15:22] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+[19:15:22] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.TickTask.run(TickTask.java:18)
+[19:15:22] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:149)
+[19:15:22] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:23)
+[19:15:22] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1426)
+[19:15:22] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.MinecraftServer.executeTask(MinecraftServer.java:192)
+[19:15:22] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:122)
+[19:15:22] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1404)
+[19:15:22] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1397)
+[19:15:22] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:132)
+[19:15:22] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1375)
+[19:15:22] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1286)
+[19:15:22] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
+[19:15:22] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.MinecraftServer$$Lambda$3658/0x00000008013ce198.run(Unknown Source)
+[19:15:22] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Thread.run(Unknown Source)
+[19:15:22] [Paper Watchdog Thread/ERROR]: ------------------------------
+[19:15:22] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[19:15:22] [Paper Watchdog Thread/ERROR]: ------------------------------
+[19:15:27] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-411 (MC: 1.17.1) ---
+[19:15:27] [Paper Watchdog Thread/ERROR]: The server has not responded for 20 seconds! Creating thread dump
+[19:15:27] [Paper Watchdog Thread/ERROR]: ------------------------------
+[19:15:27] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[19:15:27] [Paper Watchdog Thread/ERROR]: Chunk wait task info below: 
+[19:15:27] [Paper Watchdog Thread/ERROR]: 4,14 in 'testworld:
+[19:15:27] [Paper Watchdog Thread/ERROR]: Load Task - none
+[19:15:27] [Paper Watchdog Thread/ERROR]: Save Task - none
+[19:15:27] [Paper Watchdog Thread/ERROR]: Chunk Holder - non-null
+[19:15:27] [Paper Watchdog Thread/ERROR]: Chunk Status - minecraft:features
+[19:15:27] [Paper Watchdog Thread/ERROR]: Chunk Ticket Status - minecraft:full
+[19:15:27] [Paper Watchdog Thread/ERROR]: Chunk Holder Status - minecraft:features
+[19:15:27] [Paper Watchdog Thread/ERROR]: Chunk Holder Priority - 2
+[19:15:27] [Paper Watchdog Thread/ERROR]: Chunk Neighbors: 
+[19:15:27] [Paper Watchdog Thread/ERROR]:   4,15 in testworld:
+[19:15:27] [Paper Watchdog Thread/ERROR]:   Chunk Holder - non-null
+[19:15:27] [Paper Watchdog Thread/ERROR]:   Chunk Status - minecraft:liquid_carvers
+[19:15:27] [Paper Watchdog Thread/ERROR]:   Chunk Ticket Status - minecraft:features
+[19:15:27] [Paper Watchdog Thread/ERROR]:   Chunk Holder Status - minecraft:liquid_carvers
+[19:15:27] [Paper Watchdog Thread/ERROR]:   Chunk Holder Priority - 3
+[19:15:27] [Paper Watchdog Thread/ERROR]:   Chunk Neighbors: 
+[19:15:27] [Paper Watchdog Thread/ERROR]:     4,16 in testworld:
+[19:15:27] [Paper Watchdog Thread/ERROR]:     Chunk Holder - non-null
+[19:15:27] [Paper Watchdog Thread/ERROR]:     Chunk Status - minecraft:liquid_carvers
+[19:15:27] [Paper Watchdog Thread/ERROR]:     Chunk Ticket Status - minecraft:liquid_carvers
+[19:15:27] [Paper Watchdog Thread/ERROR]:     Chunk Holder Status - minecraft:liquid_carvers
+[19:15:27] [Paper Watchdog Thread/ERROR]:     Chunk Holder Priority - 35
+[19:15:27] [Paper Watchdog Thread/ERROR]:     3,16 in testworld:
+[19:15:27] [Paper Watchdog Thread/ERROR]:     Chunk Holder - non-null
+[19:15:27] [Paper Watchdog Thread/ERROR]:     Chunk Status - minecraft:noise
+[19:15:27] [Paper Watchdog Thread/ERROR]:     Chunk Ticket Status - minecraft:liquid_carvers
+[19:15:27] [Paper Watchdog Thread/ERROR]:     Chunk Holder Status - minecraft:noise
+[19:15:27] [Paper Watchdog Thread/ERROR]:     Chunk Holder Priority - 35
+[19:15:27] [Paper Watchdog Thread/ERROR]:   3,15 in testworld:
+[19:15:27] [Paper Watchdog Thread/ERROR]:   Chunk Holder - non-null
+[19:15:27] [Paper Watchdog Thread/ERROR]:   Chunk Status - minecraft:liquid_carvers
+[19:15:27] [Paper Watchdog Thread/ERROR]:   Chunk Ticket Status - minecraft:features
+[19:15:27] [Paper Watchdog Thread/ERROR]:   Chunk Holder Status - minecraft:liquid_carvers
+[19:15:27] [Paper Watchdog Thread/ERROR]:   Chunk Holder Priority - 3
+[19:15:27] [Paper Watchdog Thread/ERROR]:   Chunk Neighbors: 
+[19:15:27] [Paper Watchdog Thread/ERROR]:     2,16 in testworld:
+[19:15:27] [Paper Watchdog Thread/ERROR]:     Chunk Holder - non-null
+[19:15:27] [Paper Watchdog Thread/ERROR]:     Chunk Status - minecraft:noise
+[19:15:27] [Paper Watchdog Thread/ERROR]:     Chunk Ticket Status - minecraft:liquid_carvers
+[19:15:27] [Paper Watchdog Thread/ERROR]:     Chunk Holder Status - minecraft:noise
+[19:15:27] [Paper Watchdog Thread/ERROR]:     Chunk Holder Priority - 35
+[19:15:27] [Paper Watchdog Thread/ERROR]:     3,16 in testworld (CIRCULAR)
+[19:15:27] [Paper Watchdog Thread/ERROR]:   5,15 in testworld:
+[19:15:27] [Paper Watchdog Thread/ERROR]:   Chunk Holder - non-null
+[19:15:27] [Paper Watchdog Thread/ERROR]:   Chunk Status - minecraft:liquid_carvers
+[19:15:27] [Paper Watchdog Thread/ERROR]:   Chunk Ticket Status - minecraft:features
+[19:15:27] [Paper Watchdog Thread/ERROR]:   Chunk Holder Status - minecraft:liquid_carvers
+[19:15:27] [Paper Watchdog Thread/ERROR]:   Chunk Holder Priority - 3
+[19:15:27] [Paper Watchdog Thread/ERROR]: ------------------------------
+[19:15:27] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[19:15:27] [Paper Watchdog Thread/ERROR]: 	PID: 23 | Suspended: false | Native: false | State: TIMED_WAITING
+[19:15:27] [Paper Watchdog Thread/ERROR]: 	Stack:
+[19:15:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+[19:15:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+[19:15:27] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.util.thread.BlockableEventLoop.waitForTasks(BlockableEventLoop.java:144)
+[19:15:27] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:133)
+[19:15:27] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.level.ServerChunkCache.getChunk(ServerChunkCache.java:680)
+[19:15:27] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.world.level.Level.getChunk(Level.java:534)
+[19:15:27] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.world.level.Level.getChunk(Level.java:475)
+[19:15:27] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.level.PlayerRespawnLogic.getOverworldRespawnPos(PlayerRespawnLogic.java:30)
+[19:15:27] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.level.PlayerRespawnLogic.getSpawnPosInChunk(PlayerRespawnLogic.java:68)
+[19:15:27] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.MinecraftServer.setInitialSpawn(MinecraftServer.java:840)
+[19:15:27] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.MinecraftServer.initWorld(MinecraftServer.java:754)
+[19:15:27] [Paper Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.v1_17_R1.CraftServer.createWorld(CraftServer.java:1251)
+[19:15:27] [Paper Watchdog Thread/ERROR]: 		app//org.bukkit.Bukkit.createWorld(Bukkit.java:661)
+[19:15:27] [Paper Watchdog Thread/ERROR]: 		app//org.bukkit.WorldCreator.createWorld(WorldCreator.java:462)
+[19:15:27] [Paper Watchdog Thread/ERROR]: 		Multiverse-Core-4.3.1.jar//com.onarandombox.MultiverseCore.utils.WorldManager.doLoad(WorldManager.java:486)
+[19:15:27] [Paper Watchdog Thread/ERROR]: 		Multiverse-Core-4.3.1.jar//com.onarandombox.MultiverseCore.utils.WorldManager.addWorld(WorldManager.java:288)
+[19:15:27] [Paper Watchdog Thread/ERROR]: 		Multiverse-Core-4.3.1.jar//com.onarandombox.MultiverseCore.commands.CreateCommand.runCommand(CreateCommand.java:125)
+[19:15:27] [Paper Watchdog Thread/ERROR]: 		Multiverse-Core-4.3.1.jar//com.onarandombox.commandhandler.CommandHandler.checkAndRunCommand(CommandHandler.java:296)
+[19:15:27] [Paper Watchdog Thread/ERROR]: 		Multiverse-Core-4.3.1.jar//com.onarandombox.commandhandler.CommandHandler.processFoundCommands(CommandHandler.java:143)
+[19:15:27] [Paper Watchdog Thread/ERROR]: 		Multiverse-Core-4.3.1.jar//com.onarandombox.commandhandler.CommandHandler.locateAndRunCommand(CommandHandler.java:93)
+[19:15:27] [Paper Watchdog Thread/ERROR]: 		Multiverse-Core-4.3.1.jar//com.onarandombox.MultiverseCore.MultiverseCore.onCommand(MultiverseCore.java:839)
+[19:15:27] [Paper Watchdog Thread/ERROR]: 		app//org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
+[19:15:27] [Paper Watchdog Thread/ERROR]: 		app//org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159)
+[19:15:27] [Paper Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.v1_17_R1.CraftServer.dispatchCommand(CraftServer.java:869)
+[19:15:27] [Paper Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.v1_17_R1.CraftServer.dispatchServerCommand(CraftServer.java:832)
+[19:15:27] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.dedicated.DedicatedServer.lambda$runCommand$3(DedicatedServer.java:787)
+[19:15:27] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.dedicated.DedicatedServer$$Lambda$5160/0x0000000801b29e58.run(Unknown Source)
+[19:15:27] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59)
+[19:15:27] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.util.thread.IAsyncTaskHandler$$Lambda$5161/0x0000000801b2a080.get(Unknown Source)
+[19:15:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+[19:15:27] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.TickTask.run(TickTask.java:18)
+[19:15:27] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:149)
+[19:15:27] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:23)
+[19:15:27] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1426)
+[19:15:27] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.MinecraftServer.executeTask(MinecraftServer.java:192)
+[19:15:27] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:122)
+[19:15:27] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1404)
+[19:15:27] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1397)
+[19:15:27] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:132)
+[19:15:27] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1375)
+[19:15:27] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1286)
+[19:15:27] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
+[19:15:27] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.MinecraftServer$$Lambda$3658/0x00000008013ce198.run(Unknown Source)
+[19:15:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Thread.run(Unknown Source)
+[19:15:27] [Paper Watchdog Thread/ERROR]: ------------------------------
+[19:15:27] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[19:15:27] [Paper Watchdog Thread/ERROR]: ------------------------------
+[19:15:32] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-411 (MC: 1.17.1) ---
+[19:15:32] [Paper Watchdog Thread/ERROR]: The server has not responded for 25 seconds! Creating thread dump
+[19:15:32] [Paper Watchdog Thread/ERROR]: ------------------------------
+[19:15:32] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[19:15:32] [Paper Watchdog Thread/ERROR]: Chunk wait task info below: 
+[19:15:32] [Paper Watchdog Thread/ERROR]: 4,16 in 'testworld:
+[19:15:32] [Paper Watchdog Thread/ERROR]: Load Task - none
+[19:15:32] [Paper Watchdog Thread/ERROR]: Save Task - none
+[19:15:32] [Paper Watchdog Thread/ERROR]: Chunk Holder - non-null
+[19:15:32] [Paper Watchdog Thread/ERROR]: Chunk Status - minecraft:features
+[19:15:32] [Paper Watchdog Thread/ERROR]: Chunk Ticket Status - minecraft:full
+[19:15:32] [Paper Watchdog Thread/ERROR]: Chunk Holder Status - minecraft:features
+[19:15:32] [Paper Watchdog Thread/ERROR]: Chunk Holder Priority - 2
+[19:15:32] [Paper Watchdog Thread/ERROR]: Chunk Neighbors: 
+[19:15:32] [Paper Watchdog Thread/ERROR]:   4,17 in testworld:
+[19:15:32] [Paper Watchdog Thread/ERROR]:   Chunk Holder - non-null
+[19:15:32] [Paper Watchdog Thread/ERROR]:   Chunk Status - minecraft:liquid_carvers
+[19:15:32] [Paper Watchdog Thread/ERROR]:   Chunk Ticket Status - minecraft:features
+[19:15:32] [Paper Watchdog Thread/ERROR]:   Chunk Holder Status - minecraft:liquid_carvers
+[19:15:32] [Paper Watchdog Thread/ERROR]:   Chunk Holder Priority - 3
+[19:15:32] [Paper Watchdog Thread/ERROR]:   Chunk Neighbors: 
+[19:15:32] [Paper Watchdog Thread/ERROR]:     3,18 in testworld:
+[19:15:32] [Paper Watchdog Thread/ERROR]:     Chunk Holder - non-null
+[19:15:32] [Paper Watchdog Thread/ERROR]:     Chunk Status - minecraft:surface
+[19:15:32] [Paper Watchdog Thread/ERROR]:     Chunk Ticket Status - minecraft:liquid_carvers
+[19:15:32] [Paper Watchdog Thread/ERROR]:     Chunk Holder Status - minecraft:surface
+[19:15:32] [Paper Watchdog Thread/ERROR]:     Chunk Holder Priority - 35
+[19:15:32] [Paper Watchdog Thread/ERROR]:   3,17 in testworld:
+[19:15:32] [Paper Watchdog Thread/ERROR]:   Chunk Holder - non-null
+[19:15:32] [Paper Watchdog Thread/ERROR]:   Chunk Status - minecraft:liquid_carvers
+[19:15:32] [Paper Watchdog Thread/ERROR]:   Chunk Ticket Status - minecraft:features
+[19:15:32] [Paper Watchdog Thread/ERROR]:   Chunk Holder Status - minecraft:liquid_carvers
+[19:15:32] [Paper Watchdog Thread/ERROR]:   Chunk Holder Priority - 3
+[19:15:32] [Paper Watchdog Thread/ERROR]:   Chunk Neighbors: 
+[19:15:32] [Paper Watchdog Thread/ERROR]:     2,18 in testworld:
+[19:15:32] [Paper Watchdog Thread/ERROR]:     Chunk Holder - non-null
+[19:15:32] [Paper Watchdog Thread/ERROR]:     Chunk Status - minecraft:noise
+[19:15:32] [Paper Watchdog Thread/ERROR]:     Chunk Ticket Status - minecraft:liquid_carvers
+[19:15:32] [Paper Watchdog Thread/ERROR]:     Chunk Holder Status - minecraft:noise
+[19:15:32] [Paper Watchdog Thread/ERROR]:     Chunk Holder Priority - 35
+[19:15:32] [Paper Watchdog Thread/ERROR]:     3,18 in testworld (CIRCULAR)
+[19:15:32] [Paper Watchdog Thread/ERROR]: ------------------------------
+[19:15:32] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[19:15:32] [Paper Watchdog Thread/ERROR]: 	PID: 23 | Suspended: false | Native: false | State: TIMED_WAITING
+[19:15:32] [Paper Watchdog Thread/ERROR]: 	Stack:
+[19:15:32] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+[19:15:32] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+[19:15:32] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.util.thread.BlockableEventLoop.waitForTasks(BlockableEventLoop.java:144)
+[19:15:32] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:133)
+[19:15:32] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.level.ServerChunkCache.getChunk(ServerChunkCache.java:680)
+[19:15:32] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.world.level.Level.getChunk(Level.java:534)
+[19:15:32] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.world.level.Level.getChunk(Level.java:475)
+[19:15:32] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.level.PlayerRespawnLogic.getOverworldRespawnPos(PlayerRespawnLogic.java:30)
+[19:15:32] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.level.PlayerRespawnLogic.getSpawnPosInChunk(PlayerRespawnLogic.java:68)
+[19:15:32] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.MinecraftServer.setInitialSpawn(MinecraftServer.java:840)
+[19:15:32] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.MinecraftServer.initWorld(MinecraftServer.java:754)
+[19:15:32] [Paper Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.v1_17_R1.CraftServer.createWorld(CraftServer.java:1251)
+[19:15:32] [Paper Watchdog Thread/ERROR]: 		app//org.bukkit.Bukkit.createWorld(Bukkit.java:661)
+[19:15:32] [Paper Watchdog Thread/ERROR]: 		app//org.bukkit.WorldCreator.createWorld(WorldCreator.java:462)
+[19:15:32] [Paper Watchdog Thread/ERROR]: 		Multiverse-Core-4.3.1.jar//com.onarandombox.MultiverseCore.utils.WorldManager.doLoad(WorldManager.java:486)
+[19:15:32] [Paper Watchdog Thread/ERROR]: 		Multiverse-Core-4.3.1.jar//com.onarandombox.MultiverseCore.utils.WorldManager.addWorld(WorldManager.java:288)
+[19:15:32] [Paper Watchdog Thread/ERROR]: 		Multiverse-Core-4.3.1.jar//com.onarandombox.MultiverseCore.commands.CreateCommand.runCommand(CreateCommand.java:125)
+[19:15:32] [Paper Watchdog Thread/ERROR]: 		Multiverse-Core-4.3.1.jar//com.onarandombox.commandhandler.CommandHandler.checkAndRunCommand(CommandHandler.java:296)
+[19:15:32] [Paper Watchdog Thread/ERROR]: 		Multiverse-Core-4.3.1.jar//com.onarandombox.commandhandler.CommandHandler.processFoundCommands(CommandHandler.java:143)
+[19:15:32] [Paper Watchdog Thread/ERROR]: 		Multiverse-Core-4.3.1.jar//com.onarandombox.commandhandler.CommandHandler.locateAndRunCommand(CommandHandler.java:93)
+[19:15:32] [Paper Watchdog Thread/ERROR]: 		Multiverse-Core-4.3.1.jar//com.onarandombox.MultiverseCore.MultiverseCore.onCommand(MultiverseCore.java:839)
+[19:15:32] [Paper Watchdog Thread/ERROR]: 		app//org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
+[19:15:32] [Paper Watchdog Thread/ERROR]: 		app//org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159)
+[19:15:32] [Paper Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.v1_17_R1.CraftServer.dispatchCommand(CraftServer.java:869)
+[19:15:32] [Paper Watchdog Thread/ERROR]: 		app//org.bukkit.craftbukkit.v1_17_R1.CraftServer.dispatchServerCommand(CraftServer.java:832)
+[19:15:32] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.dedicated.DedicatedServer.lambda$runCommand$3(DedicatedServer.java:787)
+[19:15:32] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.dedicated.DedicatedServer$$Lambda$5160/0x0000000801b29e58.run(Unknown Source)
+[19:15:32] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59)
+[19:15:32] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.util.thread.IAsyncTaskHandler$$Lambda$5161/0x0000000801b2a080.get(Unknown Source)
+[19:15:32] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+[19:15:32] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.TickTask.run(TickTask.java:18)
+[19:15:32] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:149)
+[19:15:32] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:23)
+[19:15:32] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1426)
+[19:15:32] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.MinecraftServer.executeTask(MinecraftServer.java:192)
+[19:15:32] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:122)
+[19:15:32] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1404)
+[19:15:32] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1397)
+[19:15:32] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:132)
+[19:15:32] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1375)
+[19:15:32] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1286)
+[19:15:32] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
+[19:15:32] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.MinecraftServer$$Lambda$3658/0x00000008013ce198.run(Unknown Source)
+[19:15:32] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Thread.run(Unknown Source)
+[19:15:32] [Paper Watchdog Thread/ERROR]: ------------------------------
+[19:15:32] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[19:15:32] [Paper Watchdog Thread/ERROR]: ------------------------------
+[19:15:32] [Server thread/INFO]: Preparing start region for dimension minecraft:testworld
+[19:15:32] [Worker-Main-1/INFO]: Preparing spawn area: 37%
+[19:15:32] [Server thread/INFO]: Time elapsed: 65 ms
+[19:15:32] [Server thread/WARN]: [Multiverse-Core] Spawn location from world.dat file was unsafe. Adjusting...
+[19:15:32] [Server thread/WARN]: [Multiverse-Core] Original Location: X: 8 Y: 64 Z: 8 P: 0 Y: 0 
+[19:15:33] [Server thread/ERROR]: [Multiverse-Core] Safe spawn NOT found!!!
+[19:15:33] [Server thread/INFO]: Rcon: Complete!
+[19:16:38] [Server thread/INFO]: [Multiverse-Core] World 'testworld' was unloaded from Multiverse.
+[19:16:39] [Server thread/INFO]: [Multiverse-Core] World 'testworld' was unloaded from Bukkit.
+[19:16:39] [Server thread/INFO]: [Multiverse-Core] World 'testworld' was removed from config.yml
+[19:16:39] [Server thread/INFO]: [Multiverse-Core] World 'testworld' was DELETED.
+[19:18:25] [Server thread/INFO]: [Rcon: Stopping the server]
+[19:18:25] [Server thread/INFO]: Stopping server
+[19:18:25] [Server thread/INFO]: [Terra] Disabling Terra v5.4.1-BETA+efd1665c
+[19:18:25] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.1-b861
+[19:18:25] [Server thread/INFO]: Saving players
+[19:18:25] [Server thread/INFO]: Saving worlds
+[19:18:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:18:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[19:18:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[19:18:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:18:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:18:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:18:26] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19:18:27] [Server thread/INFO]: Flushing Chunk IO
+[19:18:27] [Server thread/INFO]: Closing Thread Pool
+[19:18:27] [Server thread/INFO]: Closing Server
