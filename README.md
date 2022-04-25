@@ -2,10 +2,6 @@
 
 This is a repository containing a docker-compose file to help demonstrate a bug that I am currently experiencing.
 
-## Issue Description
-
-Terra creates world files on server shutdown, even if those worlds have been deleted.
-
 - [x] I have checked that I am on the latest version of Terra.
 - [x] I have searched the github issue tracker for similar issues, including
   closed ones.
@@ -15,6 +11,10 @@ Terra creates world files on server shutdown, even if those worlds have been del
   pack I am using.
 - [x] I have attached a copy of the `latest.log` file
 - [x] I have filled out and provided all the appropriate information.
+
+## Issue Description
+
+Terra creates world files on server shutdown, even if those worlds have been deleted.
 
 ### Steps to reproduce
 
